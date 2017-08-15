@@ -1,0 +1,60 @@
+@import url(//db.onlinewebfonts.com/c/09f6b2ba02572f19a7d7dd2b5f6494ad?family=Century+Gothic);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div.col1, div.col2, div.col3 {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+div.col1 {
+  width: 30%;
+}
+
+div.col2 {
+  width: 50%;
+}
+
+div.col3 {
+  width: 20%;
+}
+
+div.header {
+  position: fixed;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /*height is in js section*/
+  background-color: red; /*for testing purposes only*/
+}
+
+div.header img {
+  position: relative;
+  width: 100%;
+}
+
+p.title, p.subtitle {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #ffffff;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, "Verdana", "Arial", sans-serif;
+  text-align: center;
+}
+
+p.title {
+  z-index: 1;
+  font-size: 72px;
+  letter-spacing: -6px;
+}
+
+p.subtitle {
+  z-index: 2;
+  font-size: 16px;
+}
