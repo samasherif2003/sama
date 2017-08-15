@@ -6,21 +6,10 @@ body {
 }
 
 div.col1, div.col2, div.col3 {
+  position: relative;
   margin: 0;
   padding: 0;
   float: left;
-}
-
-div.col1 {
-  width: 30%;
-}
-
-div.col2 {
-  width: 50%;
-}
-
-div.col3 {
-  width: 20%;
 }
 
 div.header {
@@ -30,7 +19,7 @@ div.header {
   padding: 0;
   width: 100%;
   /*height is in js section*/
-  background-color: red; /*for testing purposes only*/
+  background-color: #09110f; /*for testing purposes only*/
 }
 
 div.header img {
@@ -57,4 +46,38 @@ p.title {
 p.subtitle {
   z-index: 2;
   font-size: 16px;
+}
+
+div.tab {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #12231e;
+}
+
+ul.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.nav li {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 16px;
+  float: left;
+  color: #5DB199;
+  font-size: 16px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, "Verdana", "Arial", sans-serif;
+  text-align: center;
+}
+
+ul.nav li:hover, #nav-btn:hover {
+  background-color: #25463d;
+}
+
+#nav-btn {
+  margin-right: 8px;
+  float: right;
+  height: 100%
 }
