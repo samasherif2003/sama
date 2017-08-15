@@ -29,6 +29,10 @@ function resize() {
     getClass("nav")[0].getElementsByTagName("li")[i].style.padding = Number((window.innerHeight / 12 - 20) / 2) + "px 16px";
   }
 
+  getClass("menu-tab")[0].style.top = window.innerHeight / 12 + window.innerHeight / 3 + "px";
+
+  getClass("menu-tab")[0].style.height = window.innerHeight - (window.innerHeight / 12 + window.innerHeight / 3) + "px";
+
   if (window.innerWidth < 900 || window.innerHeight > window.innerWidth) {
     getId("header-img").style.width = "auto";
     getId("header-img").style.bottom = "500px";
@@ -61,8 +65,10 @@ getId("nav-btn").onclick = function() {
   if (!menuOn) {
     menuOn = true;
     getId("nav-btn").src = "img/phone-nav-btn-close.png";
+    getClass("menu-tab")[0].style.display = "block";
   } else {
     menuOn = false;
     getId("nav-btn").src = "img/phone-nav-btn.png";
+    getClass("menu-tab")[0].style.display = "none";
   }
 };
