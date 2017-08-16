@@ -33,10 +33,6 @@ function resize() {
 
   getClass("menu-tab")[0].style.height = window.innerHeight - (window.innerHeight / 12 + window.innerHeight / 3) + "px";
 
-  getClass("sidebar")[0].style.top =  window.innerHeight / 3 + "px";
-
-  getClass("sidebar")[0].style.height = window.innerHeight - window.innerHeight / 3 + "px";
-
   if (window.innerWidth < 900 || window.innerHeight > window.innerWidth) {
     getId("header-img").style.width = "auto";
     getId("header-img").style.bottom = "500px";
