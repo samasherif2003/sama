@@ -1,19 +1,19 @@
 /*Animations*/
 @-webkit-keyframes split {
-    0% {letter-spacing: -2px;}
-    1% {letter-spacing: 6px;}
-    100% {letter-spacing: 6px;}
+  0% {letter-spacing: -2px;}
+  1% {letter-spacing: 6px;}
+  100% {letter-spacing: 6px;}
 }
 
 @keyframes split {
-    0% {letter-spacing: -2px;}
-    1% {letter-spacing: 6px;}
-    100% {letter-spacing: 6px;}
+  0% {letter-spacing: -2px;}
+  1% {letter-spacing: 6px;}
+  100% {letter-spacing: 6px;}
 }
 
 @-webkit-keyframes move-x {
-    0% {left: 0%;}
-    100% {left: -75%;}
+  0% {left: 0%;}
+  100% {left: -75%;}
 }
 
 @keyframes move-x {
@@ -36,15 +36,15 @@ div.topic img:hover {
 }
 
 @-webkit-keyframes split {
-    0% {letter-spacing: -2px;}
-    1% {letter-spacing: 6px;}
-    100% {letter-spacing: 6px;}
+  0% {letter-spacing: -2px;}
+  1% {letter-spacing: 6px;}
+  100% {letter-spacing: 6px;}
 }
 
 @keyframes split {
-    0% {letter-spacing: -2px;}
-    1% {letter-spacing: 6px;}
-    100% {letter-spacing: 6px;}
+  0% {letter-spacing: -2px;}
+  1% {letter-spacing: 6px;}
+  100% {letter-spacing: 6px;}
 }
 
 body {
@@ -226,13 +226,28 @@ input[type=text] {
   padding: 0 4px;
   width: 130px;
   height: 20px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
   background-color: #ffffff;
   border: 1px solid lightgrey;
   border-radius: 3px;
 }
 
-input[type=text]:focus {
-    width: 100%;
+/*icons for the contact us page*/
+#icons {
+  margin: 0;
+  padding: 0;
+}
+
+#icons img{
+  margin-right: 2%;
+  padding: 0;
+  float: left;
+  width: 12.5%;
+  height: auto;
+}
+
+p.caption {
+  display: block;
+  width: 100%;
+  font-size: 50%;
+  text-align: center;
 }
